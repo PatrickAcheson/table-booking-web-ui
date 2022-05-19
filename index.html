@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Patrick Acheson-->
+<html>
+    <html lang='en'>
+    <head>
+        <title> Table Booking Dev </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link href="/styles/styles.css" rel="stylesheet">
+    </head>
+    <div class="top-bar"> </div>
+    <body id="body-id">
+        <div class="hud">
+            <button type="button" class="restart-btn" onclick="restartPage()">clear</button>
+            <button type="button" class="toggle-btn" onclick="toggleButton()">lightmode</button>
+        </div>
+        <h2 id="title-id">TABLE BOOKING SYSTEM AND ARRANGER</h2>
+        <div class="spawn-grid">
+            <h1 class="headings">MOVABLE ELEMENTS</h1>
+            <div class="inner-spawn">
+                <div id="mydiv">
+                    <h1 class="names">Table1</h1>
+                    <button class="btn-move" type="button" id="mydivheader">unbooked</button>
+                </div>
+
+                <div id="mydiv1">
+                    <h1 class="names">Table2</h1>
+                    <button class="btn-move" type="button" id="mydivheader1">unbooked</button>
+                </div>
+
+                <div id="mydiv2">
+                    <h1 class="names">Table3</h1>
+                    <button class="btn-move" type="button" id="mydivheader2">unbooked</button>
+                </div>
+
+                <div id="mydiv4">
+                    <h1 class="names">Table4</h1>
+                    <button class="btn-move" type="button" id="mydivheader4">unbooked</button>
+                </div>
+                <div id="mydiv6">
+                    <h1 class="names">Table5</h1>
+                    <button class="btn-move" type="button" id="mydivheader6">unbooked</button>
+                </div>
+                <div id="mydiv8">
+                    <h1 class="names">Table6</h1>
+                    <button class="btn-move" type="button" id="mydivheader8">unbooked</button>
+                </div>
+                <div id="mydiv10">
+                    <h1 class="names">Table7</h1>
+                    <button class="btn-move-long" type="button" id="mydivheader10">unbooked</button>
+                </div>
+            </div>
+        </div>
+        <div class="tables-grid">
+            <h1 class="headings">TABLE LAYOUT PLANNER</h1>
+            <div class="tables-inner">
+            </div>
+        </div>
+        <div class="key-grid">
+            <h1 class="headings">TABLE KEYS (Capacity)</h1>
+
+            <div class="color-class">
+                <div id="rectangle">
+                    <p> Table has 1-2 people</p>
+                </div>
+            </div>
+            <div class="color-class">
+                <div id="rectangle1">
+                    <p> Table has 2-6 people</p>
+                </div>
+            </div>
+            <div class="color-class">
+                <div id="rectangle2">
+                    <p> Table has 6-10 people</p>
+                </div>
+            </div>
+            <div class="color-class">
+                <div id="rectangle3">
+                    <p> Table has 10+ people</p>
+                </div>
+            </div>
+            <h1 class="headings-1">HOW TO USE</h1>
+            <div class="help-background">
+                <li class="li-text">Drag buttons to match your layout.</li>
+                <li class="li-text">Double click to add name and group size.</li>
+                <li class="li-text">Check the key to see how many have booked each table.</li>
+                <li class="li-text">NOTE: clear button resets everything.</li>
+            </div>
+        </div>
+        <div class="footer">
+            <script src="/scripts/script.js"></script>
+        </div>
+        <div class="top-bar"> </div>
+        <h1 class="sighed">created by bng (mini project)</h1>
+    </body>
+</html> 
